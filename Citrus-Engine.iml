@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Citrus-Engine">
+    <configurations>
+      <configuration name="Citrus-Engine" pure-as="true" output-type="Library" output-file="Citrus-Engine.swc" output-folder="$MODULE_DIR$/out/production/Citrus-Engine">
+        <dependencies target-player="11.7">
+          <entries>
+            <entry library-id="6969d619-75c5-45f8-b156-490a79572144">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="3561003a-cc9c-4bde-aef7-43541681ca55">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="b62a0b8c-691f-4d34-bc6c-edab90321316">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="74262191-a389-4ecb-a85b-8f9190f20889">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="f1f3e8de-80a0-4990-92a9-f4711f2edf02">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="63891fe8-0b56-409b-be0b-f70d710a686c">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="5fe6b805-a7c9-4aa7-897b-bc5c245f5925">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/srclib" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6969d619-75c5-45f8-b156-490a79572144" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/away3d.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="3561003a-cc9c-4bde-aef7-43541681ca55" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/AwayPhysics.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="b62a0b8c-691f-4d34-bc6c-edab90321316" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/EazeTween.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="74262191-a389-4ecb-a85b-8f9190f20889" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/feathers.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="f1f3e8de-80a0-4990-92a9-f4711f2edf02" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/nape-release.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="63891fe8-0b56-409b-be0b-f70d710a686c" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/signals.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="5fe6b805-a7c9-4aa7-897b-bc5c245f5925" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/starling.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
