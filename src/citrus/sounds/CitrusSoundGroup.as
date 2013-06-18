@@ -68,14 +68,14 @@ package citrus.sounds
 			}
 		}
 		
-		public function getSound(name:String):CitrusSound
+		/*public function getSound(name:String):CitrusSound
 		{
 			var s:CitrusSound;
 			for each(s in _sounds)
 				if (s.citrus_internal::name == name)
 					return s;
 			return null;
-		}
+		} */
 		
 		public function set mute(val:Boolean):void
 		{

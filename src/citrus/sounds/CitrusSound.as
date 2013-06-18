@@ -119,7 +119,7 @@ package citrus.sounds
 			
 			_repeatCount++;
 			
-			if (timesToPlay <= 0)
+			/*if (timesToPlay <= 0)
 			{
 				if(_triggerSoundComplete)
 					_sm.dispatchEvent(new CitrusSoundEvent(CitrusSoundEvent.SOUND_COMPLETE,this));
@@ -137,7 +137,7 @@ package citrus.sounds
 				if(_triggerRepeatComplete)
 					_sm.dispatchEvent(new CitrusSoundEvent(CitrusSoundEvent.REPEAT_COMPLETE,this));
 				stop(false);
-			}
+			}    */
 		}
 		
 		protected function onIOError(event:ErrorEvent):void
@@ -335,7 +335,7 @@ package citrus.sounds
 			return _panning;
 		}
 		
-		public function get mute():Number
+		public function get mute():Boolean
 		{
 			return citrus_internal::mute;
 		}

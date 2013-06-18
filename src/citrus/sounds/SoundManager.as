@@ -221,11 +221,11 @@ package citrus.sounds {
 				trace(this,"removeSound() : sound",id,"doesn't exist.");
 		}
 		
-		public function removeAllSounds():void {
+		/*public function removeAllSounds():void {
 			var cs:CitrusSound;
 			for each(cs in soundsDic)
 				removeSound(cs.citrus_internal::name);
-		}
+		} */
 		
 		public function get masterVolume():Number
 		{
